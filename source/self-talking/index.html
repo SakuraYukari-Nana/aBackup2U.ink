@@ -1,0 +1,24 @@
+---
+date: 2022-03-21 23:00:00
+comments: true
+---
+<div class = "text-center"><h1>碎碎念</h1></div><div class = "text-tips">
+
+tips：github登录后按时间正序查看、可点赞加❤️、本插件[地址](https://github.com/removeif/gitalk)..<span id="busuanzi_container_page_pv">「<span id="busuanzi_value_page_pv">+99</span>次查看」</span></div>
+<div id="comment-container1"><div class="text-tips">碎碎念加载中，请稍等...</div></div>
+<link rel="stylesheet" href="https://cdnjs.loli.net/ajax/libs/gitalk/1.6.0/gitalk.css"/>
+<script>
+    $.getScript("/js/gitalk_self.min.js", function () {
+        var gitalk = new Gitalk({
+            clientID: '7239774b0850185d59fc',
+            clientSecret: 'ea3376efa31c63f75b51ac4cce964ec14e1b178d',
+            id: '7777777',
+            repo: 'Issues_DataBase',
+            owner: 'SakuraYukari-Nana',
+            admin: "SakuraYukari-Nana",
+            createIssueManually: true,
+            distractionFreeMode: false
+        });
+        gitalk.render('comment-container1');
+    });
+</script>
